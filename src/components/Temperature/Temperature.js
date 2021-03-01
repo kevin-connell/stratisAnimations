@@ -24,10 +24,32 @@ const Temperature = () => {
     }, []);
 
     const handleDegree = (data) => {
-        console.log(data)
         if (data > 10 && data < 260) {
             setDegree(data);
         }
+    }
+
+    const handleTouchDrag = (event) => {
+        setSmooth(false)
+        setDialWaiting(false)
+        let center_x = event.target.parentNode.previousSibling.getBoundingClientRect().left + 135;
+        let center_y = event.target.parentNode.previousSibling.getBoundingClientRect().top + 135;
+
+        let changingMouse = (event) => {
+            let radians = Math.atan2(event.touches[0].clientX - center_x, event.touches[0].clientY - center_y);
+            let degrees = Math.round((radians * (180 / Math.PI) * -1) + 100);
+
+            handleDegree(degrees > 145 ? degrees - 145 : degrees + 216)
+        }
+
+        let removeBoth = (event) => {
+            document.removeEventListener('touchmove', changingMouse);
+            document.removeEventListener('touchend', removeBoth);
+
+            setSmooth(true)
+        }
+        document.addEventListener('touchmove', changingMouse);
+        document.addEventListener('touchend', removeBoth);
     }
 
     const handleDrag = (event) => {
@@ -86,7 +108,7 @@ const Temperature = () => {
                         </div>
                     </div>
                     <div className={smooth ? "sliderContainer smoothMove" : "sliderContainer"} style={{ transform: ('rotate(' + (degree + 45) + 'deg)') }}>
-                        <figure onMouseDown={handleDrag} className="sliderDot" />
+                        <figure onTouchStart={handleTouchDrag} onMouseDown={handleDrag} className="sliderDot" />
                     </div>
                 </div>
     );
