@@ -1,4 +1,5 @@
 .tempContainer {
+    transform: scale(.80);
     width: 404px;
     height: 817px;
     padding-top: 50px;
@@ -12,6 +13,12 @@
     -webkit-user-select: none;
     -ms-user-select: none; 
     user-select: none;
+}
+
+@media (min-width: 576px) { 
+    .tempContainer {
+        transform: scale(1);
+    }
 }
 
 .thermaContainer {
