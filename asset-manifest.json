@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stratisAnimations/static/css/main.bff2d4da.chunk.css",
+    "main.js": "/stratisAnimations/static/js/main.ba31ebfc.chunk.js",
+    "main.js.map": "/stratisAnimations/static/js/main.ba31ebfc.chunk.js.map",
+    "runtime-main.js": "/stratisAnimations/static/js/runtime-main.82d0141c.js",
+    "runtime-main.js.map": "/stratisAnimations/static/js/runtime-main.82d0141c.js.map",
+    "static/css/2.658248ec.chunk.css": "/stratisAnimations/static/css/2.658248ec.chunk.css",
+    "static/js/2.269087ac.chunk.js": "/stratisAnimations/static/js/2.269087ac.chunk.js",
+    "static/js/2.269087ac.chunk.js.map": "/stratisAnimations/static/js/2.269087ac.chunk.js.map",
+    "index.html": "/stratisAnimations/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/stratisAnimations/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.bff2d4da.chunk.css.map": "/stratisAnimations/static/css/main.bff2d4da.chunk.css.map",
+    "static/js/2.269087ac.chunk.js.LICENSE.txt": "/stratisAnimations/static/js/2.269087ac.chunk.js.LICENSE.txt",
+    "static/media/iphone-539x1024.4e9c4985.png": "/stratisAnimations/static/media/iphone-539x1024.4e9c4985.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82d0141c.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.269087ac.chunk.js",
+    "static/css/main.bff2d4da.chunk.css",
+    "static/js/main.ba31ebfc.chunk.js"
+  ]
+}
