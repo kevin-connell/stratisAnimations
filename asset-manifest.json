@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stratisAnimations/static/css/main.1840e08a.chunk.css",
+    "main.css": "/stratisAnimations/static/css/main.e7d6d16f.chunk.css",
     "main.js": "/stratisAnimations/static/js/main.072df595.chunk.js",
     "main.js.map": "/stratisAnimations/static/js/main.072df595.chunk.js.map",
     "runtime-main.js": "/stratisAnimations/static/js/runtime-main.82d0141c.js",
@@ -10,7 +10,7 @@
     "static/js/2.269087ac.chunk.js.map": "/stratisAnimations/static/js/2.269087ac.chunk.js.map",
     "index.html": "/stratisAnimations/index.html",
     "static/css/2.658248ec.chunk.css.map": "/stratisAnimations/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.1840e08a.chunk.css.map": "/stratisAnimations/static/css/main.1840e08a.chunk.css.map",
+    "static/css/main.e7d6d16f.chunk.css.map": "/stratisAnimations/static/css/main.e7d6d16f.chunk.css.map",
     "static/js/2.269087ac.chunk.js.LICENSE.txt": "/stratisAnimations/static/js/2.269087ac.chunk.js.LICENSE.txt",
     "static/media/iphone-539x1024.4e9c4985.png": "/stratisAnimations/static/media/iphone-539x1024.4e9c4985.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.82d0141c.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.269087ac.chunk.js",
-    "static/css/main.1840e08a.chunk.css",
+    "static/css/main.e7d6d16f.chunk.css",
     "static/js/main.072df595.chunk.js"
   ]
 }
