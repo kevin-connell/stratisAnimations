@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stratisAnimations/static/css/main.e7d6d16f.chunk.css",
-    "main.js": "/stratisAnimations/static/js/main.072df595.chunk.js",
-    "main.js.map": "/stratisAnimations/static/js/main.072df595.chunk.js.map",
+    "main.js": "/stratisAnimations/static/js/main.c3478ad1.chunk.js",
+    "main.js.map": "/stratisAnimations/static/js/main.c3478ad1.chunk.js.map",
     "runtime-main.js": "/stratisAnimations/static/js/runtime-main.82d0141c.js",
     "runtime-main.js.map": "/stratisAnimations/static/js/runtime-main.82d0141c.js.map",
     "static/css/2.658248ec.chunk.css": "/stratisAnimations/static/css/2.658248ec.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.269087ac.chunk.js",
     "static/css/main.e7d6d16f.chunk.css",
-    "static/js/main.072df595.chunk.js"
+    "static/js/main.c3478ad1.chunk.js"
   ]
 }
