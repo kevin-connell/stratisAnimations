@@ -7,7 +7,7 @@ import "./style.css"
 function App() {
   return (
     <>
-      <div style={{height: "800px"}}></div>
+      <div style={{height: "800px", display: "flex", justifyContent: "center", alignItems: "center", fontSize: "65px"}}>Scroll Down!</div>
       <Container className="masterContainer">
         <div className="graphicContainer">
           <Temperature/>
